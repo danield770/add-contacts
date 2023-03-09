@@ -1,0 +1,91 @@
+.wpr {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #172d32;
+  border: 2px solid;
+  border-radius: 6px;
+}
+.header {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+}
+.contactName {
+  margin: 0 auto 0 8px;
+  font-size: 0.95rem;
+}
+.largeImg {
+  width: 34px;
+  height: 34px;
+}
+.smallImg {
+  width: 24px;
+  height: 24px;
+}
+.addBtn {
+  border: 0;
+  width: 76px;
+  height: 32px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #e2e8fd;
+  font-size: 0.9rem;
+}
+.addBtn:hover {
+  background-color: #cbd5e1;
+}
+.addBtn:focus {
+  background-color: #c4b5fd;
+  border: 2px solid #c4b5fd;
+}
+.emptyStateMsg {
+  color: #64748b;
+}
+
+.addedContactsWpr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 14px;
+  padding: 5px 16px;
+  gap: 109px;
+  min-height: 44px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+}
+.addedList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.addedContact {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  gap: 4px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+}
+.addedContactName {
+  font-size: 0.95rem;
+}
+.closeBtn {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}

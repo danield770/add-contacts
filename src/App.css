@@ -16,6 +16,14 @@ body {
 #root {
   width: 639px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+button {
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
