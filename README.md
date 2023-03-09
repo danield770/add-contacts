@@ -26,3 +26,12 @@ I didn't change it for lack of time :)
 Thanks,
 
 Daniel.
+
+===
+
+For what it's worth, I made a pull request on branch 'fixes' @ https://github.com/danield770/add-contacts/pull/1/files
+The differences I made in the fixes branch were:
+
+1. Use derived state for 'notAddedContacts' instead of state variable
+2. 'Pixel perfect' issues
+3. Use css modules instead or regular CSS
